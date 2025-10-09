@@ -80,6 +80,8 @@ void EducationalManagemenentSystem::run(){
             StudentSession session(courses_manager, cur_student);
             session.run_main_menu();
         }
+        cur_doctor = nullptr;
+        cur_student = nullptr;
     }
 }
 
