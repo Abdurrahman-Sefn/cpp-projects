@@ -1,0 +1,20 @@
+# Ignore compiled executables
+*.out
+system
+program
+hospital_system
+a.out
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore other build artifacts
+*.slo
+*.sl
+*.pyc
+*.pyo
+
+# Ignore VSCode files
+.vscode/
+
