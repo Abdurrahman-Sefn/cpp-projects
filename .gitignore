@@ -1,20 +1,38 @@
-# Ignore compiled executables
-*.out
-system
-program
-hospital_system
-a.out
-
-# Ignore object files
+# Build artifacts
+build/
+cmake-build-debug/
+cmake-build-release/
 *.o
-*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
 
-# Ignore other build artifacts
-*.slo
-*.sl
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.user
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Python
+__pycache__/
 *.pyc
 *.pyo
 
-# Ignore VSCode files
-.vscode/
+# Compiled binaries
+bin/
+obj/
 
+# Specific Runtime Artifacts (Temporary Output)
+02-tic-tac-toe-game/board.txt
