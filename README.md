@@ -1,4 +1,4 @@
-# MyCPP_Portfolio
+# cpp-portfolio
 
 A comprehensive collection of C++ projects ranging from simple console games to complex management systems. This repository demonstrates professional software engineering practices including **Object-Oriented Programming (OOP)**, **Data Structures (Tries, Queues)**, **System Architecture**, and **Modern Build Systems**.
 
